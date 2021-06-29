@@ -1,0 +1,388 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.header{
+	overflow: hidden;
+	background-color: white;
+	padding left: 8%;
+	padding-right: 8%;
+	width: 100%;
+	margin-top: 20px;
+}
+.header a{
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 12px;
+	align-items: center;
+	padding: 10px;
+}
+.header a.logo{
+	height: 35px;
+}
+.header img{
+	vertical-align: middle;
+	height: 35px;
+}
+.header .header-right{
+	vertical-align: center;
+}
+.header .header-right a{
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.header .header-right button{
+	
+	vertical-align: center;
+}
+.header a.button{
+	background-color: #36b37e;
+	color: blue;
+	margn: auto;
+}
+
+.header-right{
+	float: right;
+}
+@media screen and(max-width: 500px){
+	.header a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.header{
+		float: none;
+	}
+
+}
+.row{
+	display:flex;
+	background-color: #fddcc356;
+	heigt	
+}
+.colleft{
+	width: 50%;
+	border: none;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 200px;
+
+}
+.colright{
+	border: none;
+	margin-left: 10%;
+	margin-right: 5%;
+	width: 200px;
+
+}
+@media only screen and (max-width: 640px){
+	.row{
+		display: block;
+		box-sizing: border-box;
+	}
+	.colleft{
+		width: 100%;
+	}
+	.colright{
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+.colright{
+	width: 50%;
+	min-height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.contentsubtexttwo{
+	width: 90%;
+	max-width: 1000px;
+	margin:  0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contentsubtexttwotext{
+	width: 50%;
+	min-height: 200px;
+	background-color: white;
+	display: flex;
+	border-radius: 8px;
+	color: black;
+}
+.contentsubtexttwotext.quotesOne{
+	top: -27px;
+	height: 20px;
+	width: 25px;
+}
+img{
+	vertical-align: middle;
+	border: ;
+}
+
+
+.contentsubtexttwotext p{
+	margin-left: 5%;
+}
+.rightimg{
+	width: 50%;
+	height: 300px;
+	background: url(hlthe/images/child.png) no-repeat center/cover;
+	border-radius: 8px;
+	color: white;
+}
+.rightimg h6{
+	font-size: 40;
+	font-weight:lighter;
+}
+.right p{
+	margin:  20px 0;
+	font-weight: 500;
+	line-weight: 25px;
+}
+
+.howitwork{
+	text-align: center;
+}
+
+a{
+	display: inline-block;
+}
+.w3-container ul{
+	display: inline-block;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	paddig: 5px;
+	width: 25%
+	margin-top: 50px;
+}
+li p{
+	padding: auto;
+}
+
+.nonprofitdisc{
+	list-style: none;
+	padding: 40px 0 25px;
+	margin: 0;
+	height: 79px;
+}
+.nonprofitdisc li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+li{
+	display: list-item;
+}
+.nonprofitdisc li::before{
+	content: "";
+	position: absolute;
+	height: 14px;
+	top: -6px;
+	left: 0;
+	width: 100%;
+	before-botom: 1.2px solid #979dae;
+
+}
+.nonprofitdisc{
+	list-style: none;
+}
+
+/*.lines{
+	width: 25%;
+	height: 45px;
+	position: relative;
+}
+.lines::after,.lines::before{
+	content: ' ';
+	position: absolute;
+	margin: auto;
+	height: 2px;
+	background: #fff;
+	width: 300px;
+	
+}
+.lines::after{
+	left: 0;
+}
+.lines::before{
+	right: 0;
+}
+.circle{
+	height: 40px;
+	width: 40x;
+	border: 2px solid #fff;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border radius: 50%;
+}
+@media{max-width: 768px}
+{
+	.circle{
+		height:20px;
+		width: 20px;
+	}
+}*/
+.nonprofitsbtn h5{
+	font-size: 20px;
+	color: black;
+	margin: 0 0 15px;
+	line-height: 23px;
+	
+}
+.nonprofitsbtn button{
+	width: 150px;
+	height: 35px;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	font-size: 14px;
+	background: #36b37e;
+	color: #fff;
+	border-radius: 25.36px;
+
+}
+
+
+/*COVER 3*/
+.cover3 {
+	padding: 40px 7% 0 7%;
+	max-width: 1300px;
+	margin-top: 80px;
+	background: #fff;
+}
+.cover3 row1{
+	margin-bottom: 80px;
+}
+.cover3 .donor,.cover3 .nonprofitorganisation,.cover3 .recepients{
+	display:flex;
+	width: 100%;	
+}
+.cover3 .donor .donortext,.cover3 .nonprofitorganisation .nonprofitorganisationtext,.cover3 .recepients .recepientstext{
+	height: 530px;
+	width: 50%;
+	padding: 70px;
+}
+
+.cover3 .donor .donorimage,.cover3 .nonprofitorganisation .nonprofitorganisationimage,.cover3 .recepients .recepientsimage{
+	height: 530px;
+	width: 50%;
+	padding: 70px;
+}
+
+.cover3 img{
+	height: 530px;
+	width: 100%;
+}
+
+
+/*COVER 4*/
+
+
+.cover4{
+	
+	background-color: #36b37e;   
+	padding: 60px 7%;
+	
+}
+.cover4 .container{
+	width: 100%;
+	display: flex;
+	
+}
+.container{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.cover4 h2{
+	font-size: 65px;
+	font-family:'OpenSan-ExtraBold',sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	justify-content: center;
+	color: white;
+
+}
+.cover4 p{
+	font-family: 'OpenSans-Regular',sans-serif;
+	font-size: 17px;
+	line-height: 1.8;
+	text-align: center;
+	color: white;
+
+}
+.footersection{
+
+	padding: 35px 7% 15px 7%;
+	background-color: white;
+
+}
+.footer{
+	display: flex;
+	width: 100%;
+}
+.footerlogo{
+	width: 120px;
+	height: 40px;
+	margin: auto auto auto 0;
+}
+.footerlogo img{
+	height: 30px;
+}
+img{
+	vertical-align: middle;
+}
+.footernav{
+	margin:  0 auto auto;
+}
+.footerlinks{
+	height: 20px;
+	padding-left: 10px;
+}
+.footerlinks{
+		margin-top: 0;
+		margin-bottom: 10px;
+		display: block;
+	
+}
+.footerlinks ul{
+	vertical-align: center;
+}
+
+.footerlinks li{
+	padding-right: 15px;
+	float: left;
+	list-style: none;
+	margin: auto;
+	dispaly: inline-block;
+	width: auto;
+}
+
+	
+	
+
+.footerlinks li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #36b37e;
+
+}
+a{
+	background-color: transparent;
+}
+
+
+
+
